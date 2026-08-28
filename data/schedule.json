@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "我的课表",
+    "school": "上海电机学院",
+    "className": "国贸2621",
+    "term": "2026-2027 学年第 1 学期",
+    "termStart": "2026-09-14",
+    "firstTermEnd": "2027-01-17",
+    "secondTermStart": "2027-02-21",
+    "displayStart": "2026-09-14",
+    "displayEnd": "2027-07-16",
+    "winterBreak": { "start": "2027-01-18", "end": "2027-02-20" },
+    "summerBreak": { "start": "2027-07-17", "end": "2027-08-31" },
+    "timezone": "Asia/Shanghai"
+  },
+  "courses": [
+    {
+      "id": "info-ai",
+      "name": "信息技术与人工智能",
+      "code": "033466B1-05",
+      "weekday": 1,
+      "periods": [1, 2],
+      "startTime": "08:10",
+      "endTime": "09:40",
+      "location": "闵行校区 技术中心A楼301（公共云电脑机房）",
+      "weekRanges": [
+        { "start": 1, "end": 12, "teacher": "任远" },
+        { "start": 13, "end": 16, "teacher": "熊鸿军" }
+      ],
+      "color": "#2563eb"
+    },
+    {
+      "id": "history-monday",
+      "name": "中国近现代史纲要",
+      "code": "053017P1-01",
+      "weekday": 1,
+      "periods": [5, 6],
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "location": "闵行校区 技术中心A楼A区314",
+      "teacher": "张旭",
+      "weeks": { "start": 1, "end": 15, "parity": "odd" },
+      "color": "#7c3aed"
+    },
+    {
+      "id": "english",
+      "name": "大学英语(1)",
+      "code": "063001A1-05",
+      "weekday": 1,
+      "periods": [7, 8],
+      "startTime": "14:20",
+      "endTime": "15:50",
+      "location": "闵行校区 二教112",
+      "teacher": "杜江一",
+      "weeks": { "start": 1, "end": 16 },
+      "color": "#0f766e"
+    },
+    {
+      "id": "listening",
+      "name": "大学英语听说(1)",
+      "code": "063002Q1-05",
+      "weekday": 2,
+      "periods": [3, 4],
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "location": "闵行校区 技术中心A楼308-309（公共语音室）",
+      "teacher": "杜江一",
+      "weeks": { "start": 1, "end": 16 },
+      "color": "#0891b2"
+    },
+    {
+      "id": "math-tuesday",
+      "name": "高等数学B(1)",
+      "code": "533002B1-01",
+      "weekday": 2,
+      "periods": [7, 8],
+      "startTime": "14:20",
+      "endTime": "15:50",
+      "location": "闵行校区 一教314",
+      "teacher": "全兆佳",
+      "weeks": { "start": 1, "end": 16 },
+      "color": "#ea580c"
+    },
+    {
+      "id": "military",
+      "name": "军事理论",
+      "code": "903005P1-05",
+      "weekday": 2,
+      "periods": [10, 11],
+      "startTime": "17:30",
+      "endTime": "19:05",
+      "location": "闵行校区 一教202",
+      "teacher": "沙昕田",
+      "weeks": { "start": 1, "end": 8 },
+      "color": "#be123c"
+    },
+    {
+      "id": "oral",
+      "name": "英语口语(1)",
+      "code": "063104P1-01",
+      "weekday": 3,
+      "periods": [3, 4],
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "location": "闵行校区 技术中心A楼308-309（公共语音室）",
+      "teacher": "史妍青",
+      "weeks": { "start": 1, "end": 16 },
+      "color": "#4f46e5"
+    },
+    {
+      "id": "history-wednesday",
+      "name": "中国近现代史纲要",
+      "code": "053017P1-01",
+      "weekday": 3,
+      "periods": [7, 8],
+      "startTime": "14:20",
+      "endTime": "15:50",
+      "location": "闵行校区 技术中心A楼A区314",
+      "teacher": "张旭",
+      "weeks": { "start": 1, "end": 16 },
+      "color": "#7c3aed"
+    },
+    {
+      "id": "wellbeing",
+      "name": "大学生心理与保健",
+      "code": "902004P2-05",
+      "weekday": 4,
+      "periods": [10, 11],
+      "startTime": "17:30",
+      "endTime": "19:05",
+      "location": "闵行校区 一教214",
+      "teacher": "李畅",
+      "weeks": { "start": 1, "end": 16 },
+      "color": "#db2777"
+    },
+    {
+      "id": "math-friday",
+      "name": "高等数学B(1)",
+      "code": "533002B1-01",
+      "weekday": 5,
+      "periods": [3, 4],
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "location": "闵行校区 一教102",
+      "teacher": "全兆佳",
+      "weeks": { "start": 1, "end": 15, "parity": "odd" },
+      "color": "#ea580c"
+    },
+    {
+      "id": "policy",
+      "name": "形势与政策(1)",
+      "code": "053111P1-05",
+      "weekday": 5,
+      "periods": [5, 6],
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "location": "闵行校区 体育文化中心",
+      "teacher": "张丹丹",
+      "weeks": { "start": 15, "end": 16 },
+      "color": "#16a34a"
+    }
+  ]
+}
