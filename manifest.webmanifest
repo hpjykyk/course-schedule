@@ -1,0 +1,10 @@
+{
+  "name": "我的课表 · 国贸2621",
+  "short_name": "我的课表",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#10233f",
+  "lang": "zh-CN",
+  "icons": []
+}
