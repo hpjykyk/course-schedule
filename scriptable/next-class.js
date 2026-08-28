@@ -3,8 +3,8 @@
 // 2. 在 Scriptable 中运行一次，允许网络访问
 // 3. 添加 Scriptable 小组件并选择本脚本
 
-const DATA_URL = 'https://YOUR-SITE.example/data/schedule.json';
-const HOLIDAY_URL = 'https://YOUR-SITE.example/data/holidays.json';
+const DATA_URL = 'https://hpjykyk.github.io/course-schedule/data/schedule.json';
+const HOLIDAY_URL = 'https://hpjykyk.github.io/course-schedule/data/holidays.json';
 
 const pad = (n) => String(n).padStart(2, '0');
 const parseDay = (value) => { const [y, m, d] = value.split('-').map(Number); return new Date(y, m - 1, d); };
